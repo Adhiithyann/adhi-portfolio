@@ -100,7 +100,14 @@ export default function Contact() {
               Contact form with validation<br />
 
               <strong>Goal:</strong>
-              Build a modern, professional portfolio using React & Next.js, with a focus on SEO, performance, and clean design.
+              Build a modern, professional portfolio using React & Next.js, with a focus on SEO, performance, and clean design.<br/> <br/>
+
+              🔗 Live:  <a href=''
+                target="_blank"
+                rel="noopener noreferrer">rock-paper-scissor.vercel.app </a><br />
+              📁 Repo:  <a href='https://github.com/Adhiithyann/adhi-portfolio'
+                target="_blank"
+                rel="noopener noreferrer">GitHub Link </a>
 
             </p>
           </div>
