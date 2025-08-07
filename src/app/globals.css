@@ -1,31 +1,13 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 html, body {
   height: 100%;
   margin: 0;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
+  background: white;
+  color: black;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -37,7 +19,7 @@ body {
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: rgb(255, 255, 255);
   color: #333;
   display: flex;
   flex-direction: column;
@@ -50,15 +32,21 @@ body {
   padding: 20px;
   flex: 1; 
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: flex-start;
 }
 
 header {
-  background-color: #333;
-  color: #fff;
+  background-color: rgb(32, 26, 73);
+  color: #ffffff;
   padding: 10px 0;
   text-align: center;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: sticky;
+  
 }
 
 header nav ul {
@@ -82,7 +70,7 @@ h1 {
 }
 
 .firstPara{
-  margin-top: 20px;
+  margin: 30px ;
 }
 
 .Adhi{
@@ -97,7 +85,7 @@ h1 {
 }
 .last{
 
-  background-color: #333  ;
+  background-color: rgb(32, 26, 73)  ;
   text-align: center;
   padding: 20px 0;
   color: white;
@@ -107,3 +95,21 @@ h1 {
 footer p {
   margin: 0;
 }
+
+.adhi{
+  position: absolute;
+  top: 18px;
+  left: 97px;
+}
+.pos{
+  position: absolute;
+  right: 120;
+  top: 40px;
+  
+  
+}
+.image{
+  margin: 30px 0px 0px 0px ;
+}
+
+

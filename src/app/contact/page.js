@@ -1,11 +1,10 @@
-import Link from 'next/link';
-
+import Link from "next/link";
 
 export default function Contact() {
   return (
-     <div>
+    <div>
       <header>
-        <h1>My Portfolio</h1>
+        <h1>Adhithyan T</h1>
         <nav>
           <ul>
             <li>
@@ -23,11 +22,36 @@ export default function Contact() {
           </ul>
         </nav>
       </header>
-      
+
       <div className="container">
-      <h1>Contact Me</h1>
-      <p>Email: your-email@example.com</p>
-    </div>
+        <h1>Contact Me</h1>
+        <strong>Email: adhithyan.t10@gmail.com </strong>
+        <br />
+        <strong>Phone: 6282330905 </strong>
+        <br />
+        <strong>
+          Github
+          <a
+            href="https://github.com/Adhiithyann"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+           : Adhithyan T  
+          </a>
+        </strong>
+        <br />
+        <strong>
+          Linked In
+          <a
+            href="https://www.linkedin.com/in/adhithyan-t-73206a365/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+           : Adhithyan T  
+          </a>
+        </strong>
+        <br />
+      </div>
     </div>
   );
 }
