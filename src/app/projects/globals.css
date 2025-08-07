@@ -1,14 +1,12 @@
-
-
 body {
-  background: white;
-  color: black;
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
-  background-color: #333;
-  color: #ffffff;
+  background-color: #ff7e4f;
+  color: #000000;
   padding: 10px 0;
   text-align: center;
 }
@@ -31,4 +29,61 @@ header nav ul li a {
 h1 {
   font-size: 2.5rem;
   margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.last {
+
+  background-color: #ff7e4f;
+  text-align: center;
+  padding: 20px 0;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+}
+
+.card {
+  background-color: #fff;
+  color: #000000;
+  width: 500px;
+  height: 260px;
+  position: absolute;
+  top: 250px;
+  left: 200px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.cardA {
+  background-color: #fff;
+  color: #000000;
+  width: 500px;
+  height: 260px;
+  position: absolute;
+  top: 250px;
+  left: 740px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.cardB {
+  background-color: #fff;
+  color: #000000;
+  width: 500px;
+  height: 260px;
+  position: absolute;
+  top: 550px;
+  left: 200px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#mypro {
+  position: absolute;
+  left: 100px;
+  top: 125px;
+
 }

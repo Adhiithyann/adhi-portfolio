@@ -68,7 +68,7 @@ export default function Home() {
       </div>
       <footer className="last">
 
-        <p>© 2025 Your Name. All rights reserved.</p>
+        <p>© 2025 Adhithyan T. All rights reserved.</p>
       </footer>
     </>
   );
