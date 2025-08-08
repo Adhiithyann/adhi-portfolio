@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import url(tailwindcss);
 
 html, body {
   height: 100%;
@@ -110,6 +110,19 @@ footer p {
 }
 .image{
   margin: 30px 0px 0px 0px ;
+}
+.photo{
+  height: 730px;
+  width: 550px;
+}
+
+.content{
+  position: absolute;
+  top: 450px;
+  left: 792px;
+}
+#line{
+  line-height: 28px;
 }
 
 

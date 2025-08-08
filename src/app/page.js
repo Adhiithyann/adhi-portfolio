@@ -48,23 +48,28 @@ export default function Home() {
 
 
         
-          <p>
-            <strong className="Adhi">Hi, I'm Adhithyan</strong> — a BCA 2nd year
+          <p id="line">
+            <strong className="Adhi">Hi, I am Adhithyan</strong> — a BCA 2nd year
             student and a passionate Full Stack Developer with a fresh
             perspective and a hunger to build impactful digital experiences.
-            I’ve recently completed an intensive full stack development course,
+            I have recently completed an intensive full stack development course,
             equipping me with hands-on experience in both front-end and back-end
             technologies. From crafting responsive user interfaces to building
             robust server-side applications, I enjoy bringing ideas to life
             through clean, functional code. What excites me most is the creative
-            freedom in problem-solving — whether it’s optimizing a REST API or
-            designing a sleek UI, I love turning complexity into simplicity. I’m
+            freedom in problem-solving — whether it is optimizing a REST API or
+            designing a sleek UI, I love turning complexity into simplicity. I am
             now looking to collaborate on real-world projects where I can keep
             learning, contributing, and growing as a developer.
           </p>
         </div>
 
-        <div className="image"></div>
+        <div className="content">
+          <h1><strong>Contents</strong></h1> <br/>
+          <div><p><strong>About</strong>: A brief description about Myself</p></div><br/>
+          <div><p><strong>Projects</strong>: A brief description about the projects I have made</p></div><br/>
+          <div><p><strong>Contacts</strong>: If you want to contact me , all my contact details are here</p></div>
+        </div>
       </div>
       <footer className="last">
 

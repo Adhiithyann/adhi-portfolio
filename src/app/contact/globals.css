@@ -58,3 +58,8 @@ h1 {
   top: 125px;
   left: 200px;
 }
+.tdec{
+  text-decoration: none;
+  color: inherit;
+} 
+

@@ -49,6 +49,7 @@ export default function Contact() {
             href="https://github.com/Adhiithyann"
             target="_blank"
             rel="noopener noreferrer"
+            className="tdec"
           >
            : Adhithyan T  
           </a>
@@ -61,6 +62,7 @@ export default function Contact() {
             href="https://www.linkedin.com/in/adhithyan-t-73206a365/"
             target="_blank"
             rel="noopener noreferrer"
+            className="tdec"
           >
            : Adhithyan T  
           </a>
@@ -73,6 +75,7 @@ export default function Contact() {
             href="https://www.instagram.com/adhith.yann/"
             target="_blank"
             rel="noopener noreferrer"
+            className="tdec"
           >
            : adhith.yann 
           </a>

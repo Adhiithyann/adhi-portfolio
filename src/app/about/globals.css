@@ -15,7 +15,7 @@ body {
 
 header {
   background-color: #ff7e4f;
-  color: #ffffff;
+  color: #000000;
   padding: 10px 0;
   text-align: center;
   height: 100px;
@@ -37,7 +37,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-  color: #ffffff;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -50,7 +50,7 @@ h1 {
   background-color: #ff7e4f  ;
   text-align: center;
   padding: 20px 0;
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 14px;
 }
 
@@ -69,6 +69,14 @@ footer p {
 
 .skill{
   position: absolute;
-  top: 330px;
+  top: 515px;
   left: 212px;
+}
+.line{
+  line-height: 28px;
+}
+.education{
+  position: absolute;
+  top: 330px;
+  left: 212px; 
 }

@@ -22,7 +22,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-  color: #ffffff;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -87,3 +87,24 @@ h1 {
   top: 125px;
 
 }
+
+.card:hover{
+  transform: translateX(-10px);
+  transition: 2ms;
+  background-color: #ff7e4f;
+}
+.cardA:hover{
+  transform: translateX(-10px);
+  transition: 2ms;
+  background-color: #ff7e4f;
+}
+.cardB:hover{
+  transform: translateX(-10px);
+  transition: 2ms;
+  background-color: #ff7e4f;
+}
+.tdec{
+  text-decoration: none;
+  color: inherit;
+}
+

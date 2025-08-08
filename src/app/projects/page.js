@@ -41,9 +41,9 @@ export default function Contact() {
             <h2><strong>1.Basic Static Website</strong></h2><br />
 
 
-            Tech Used: HTML, CSS, <br />
+            <strong>Tech Used</strong>: HTML, CSS, <br />
 
-            Features: <br />
+           <strong>Features:</strong> <br />
 
             Responsive navbar ,
 
@@ -53,10 +53,10 @@ export default function Contact() {
 
             Basic CSS styling <br />
 
-            Goal: <br />
+            <strong>Goal:</strong> <br />
             Build foundational HTML/CSS skills using semantic elements and common web features. <br />
 
-            Note: First project, not yet pushed to GitHub.
+            <strong>Note:</strong> First project, not yet pushed to GitHub.
           </div>
 
           <div className='cardA'>
@@ -71,21 +71,23 @@ export default function Contact() {
 
               Shows result + score (win/loss/draw)
 
-              Interactive UI with DOM updates
+              Interactive UI with DOM updates <br/>
 
               <strong>Goal:</strong>
               Practice DOM manipulation, event handling, and basic game logic. <br /><br />
 
               🔗 Live:  <a href='https://rock-paper-scissor-rho-lac.vercel.app/'
                 target="_blank"
-                rel="noopener noreferrer">rock-paper-scissor.vercel.app </a><br />
+                rel="noopener noreferrer"
+                className='tdec'><strong>rock-paper-scissor</strong> </a><br />
               📁 Repo:  <a href='https://github.com/Adhiithyann/ROCK-PAPER-SCISSOR'
                 target="_blank"
-                rel="noopener noreferrer">GitHub Link </a>
+                rel="noopener noreferrer"
+                className='tdec'><strong>GitHub Link</strong> </a>
             </p>
           </div>
           <div className='cardB'>
-            <h2><strong>3. Portfolio Website (Next.js)</strong></h2><br />
+            <h2><strong>3. Portfolio Website </strong></h2><br />
             <p>
 
               <strong>Tech:</strong>  Next.js, React, CSS Modules<br />
@@ -100,14 +102,16 @@ export default function Contact() {
               Contact form with validation<br />
 
               <strong>Goal:</strong>
-              Build a modern, professional portfolio using React & Next.js, with a focus on SEO, performance, and clean design.<br/> <br/>
+              Build a modern, professional portfolio using React & Next.js<br/> <br/>
 
               🔗 Live:  <a href=''
                 target="_blank"
-                rel="noopener noreferrer">rock-paper-scissor.vercel.app </a><br />
+                rel="noopener noreferrer"
+                className='tdec'><strong>My Portfolio</strong> </a><br />
               📁 Repo:  <a href='https://github.com/Adhiithyann/adhi-portfolio'
                 target="_blank"
-                rel="noopener noreferrer">GitHub Link </a>
+                rel="noopener noreferrer"
+                className='tdec'><strong>GitHub Link</strong> </a>
 
             </p>
           </div>
