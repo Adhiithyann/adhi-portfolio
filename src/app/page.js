@@ -37,11 +37,12 @@ export default function Home() {
         <title>My Portfolio</title>
         <meta name="description" content="Welcome to my portfolio!" />
       </Head>
-      <div className="container">
-
-        <div className="image">
+       <div className="image">
           <img src="/adhii.jpeg" alt="image" className="photo"></img>
         </div>
+      <div className="container">
+
+       
 
       <div className="firstPara">
           <h1 className="welcome">Welcome!</h1>
@@ -51,14 +52,14 @@ export default function Home() {
           <p id="line">
             <strong className="Adhi">Hi, I am Adhithyan</strong> — a BCA 2nd year
             student and a passionate Full Stack Developer with a fresh
-            perspective and a hunger to build impactful digital experiences.
+            perspective and a hunger to build impactful digital <br/> experiences.
             I have recently completed an intensive full stack development course,
             equipping me with hands-on experience in both front-end and back-end
             technologies. From crafting responsive user interfaces to building
             robust server-side applications, I enjoy bringing ideas to life
-            through clean, functional code. What excites me most is the creative
+            through clean, functional code. <br/> What excites me most is the creative
             freedom in problem-solving — whether it is optimizing a REST API or
-            designing a sleek UI, I love turning complexity into simplicity. I am
+            designing a sleek UI, I love turning complexity into <br/> simplicity. I am
             now looking to collaborate on real-world projects where I can keep
             learning, contributing, and growing as a developer.
           </p>

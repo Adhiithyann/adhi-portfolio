@@ -71,6 +71,15 @@ h1 {
 
 .firstPara{
   margin: 30px ;
+  position: absolute;
+  top: 150px;
+  left: 670px;
+  right: 35px;
+}
+.content{
+  position: absolute;
+  top: 450px;
+  left: 700px;
 }
 
 .Adhi{
@@ -113,21 +122,21 @@ footer p {
 }
 .photo{
   height: 730px;
-  width: 3350px;
+  width: 550px;
 }
 .image{
   height: 730px;
   width: 550px;
-}
-
-
-.content{
   position: absolute;
-  top: 450px;
-  left: 792px;
+  top: 127px;
+  left: 80px;
 }
+
+
+
 #line{
   line-height: 28px;
+
 }
 
 

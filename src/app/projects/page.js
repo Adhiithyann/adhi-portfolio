@@ -74,7 +74,7 @@ export default function Contact() {
               Interactive UI with DOM updates <br/>
 
               <strong>Goal:</strong>
-              Practice DOM manipulation, event handling, and basic game logic. <br /><br />
+              Practice DOM manipulation, event handling, and basic game logic. <br />
 
               🔗 Live:  <a href='https://rock-paper-scissor-rho-lac.vercel.app/'
                 target="_blank"
