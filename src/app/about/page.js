@@ -63,7 +63,7 @@ export default function about() {
       <div className='skill'>
           <h1><strong>My Skills</strong></h1>
           <p className='line'>
-            I have hands-on experience in web development with a solid foundation in <strong>HTML</strong> and <strong>CSS </strong>for creating responsive and structured layouts. I'm proficient in <strong>Python</strong> and have worked extensively with the <strong>Django</strong> <br/>framework for building robust backend systems and APIs. On the frontend, I use <strong>React.js</strong> to create interactive user interfaces and have also worked with <strong>Next.js</strong> for building full-stack and server-rendered <br/>React applications.
+            I have hands-on experience in web development with a solid foundation in <strong>HTML</strong> and <strong>CSS </strong>for creating responsive and structured layouts. I am proficient in <strong>Python</strong> and have worked extensively with the <strong>Django</strong> <br/>framework for building robust backend systems and APIs. On the frontend, I use <strong>React.js</strong> to create interactive user interfaces and have also worked with <strong>Next.js</strong> for building full-stack and server-rendered <br/>React applications.
           </p> 
       </div>
       <footer className='last'>
