@@ -113,8 +113,13 @@ footer p {
 }
 .photo{
   height: 730px;
-  width: 3350px;
+  width: 550px;
 }
+.image{
+  height: 730px;
+  width: 550px;
+}
+
 
 .content{
   position: absolute;
