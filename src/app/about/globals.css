@@ -80,3 +80,10 @@ footer p {
   top: 330px;
   left: 212px; 
 }
+.pos{
+  position: absolute;
+  right: 120;
+  top: 40px;
+  
+  
+}

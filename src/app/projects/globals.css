@@ -107,4 +107,10 @@ h1 {
   text-decoration: none;
   color: inherit;
 }
-
+.pos{
+  position: absolute;
+  right: 120;
+  top: 40px;
+  
+  
+}

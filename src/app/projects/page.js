@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 
-export default function Contact() {
+export default function Projects() {
   return (
     <>
       <div className="firstHeader">
