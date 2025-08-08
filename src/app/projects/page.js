@@ -104,7 +104,7 @@ export default function Projects() {
               <strong>Goal:</strong>
               Build a modern, professional portfolio using React & Next.js<br/> <br/>
 
-              🔗 Live:  <a href=''
+              🔗 Live:  <a href='https://adhi-portfolio-vhhk.vercel.app/'
                 target="_blank"
                 rel="noopener noreferrer"
                 className='tdec'><strong>My Portfolio</strong> </a><br />
