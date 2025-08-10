@@ -1,126 +1,72 @@
 import Link from 'next/link';
-
+import Head from 'next/head';
 
 export default function Projects() {
   return (
     <>
-      <div className="firstHeader">
-        <header>
+      <Head>
+        <title>Projects - Adhithyan T</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </Head>
 
-          <div className="adhi">
-            <h1><strong>Adhithyan T</strong></h1>
-          </div>
-
-          <div className="pos">
-            <nav>
-              <ul>
-                <li>
-                  <Link href="/">Home</Link>
-                </li>
-                <li>
-                  <Link href="/about">About</Link>
-                </li>
-                <li>
-                  <Link href="/projects">Projects</Link>
-                </li>
-                <li>
-                  <Link href="/contact">Contact</Link>
-                </li>
-              </ul>
-            </nav>
-          </div>
-
+      <div className="projects-wrapper">
+        <header className="projects-header">
+          <h1 className="projects-logo"><strong>Adhithyan T</strong></h1>
+          <nav className="projects-nav">
+            <ul>
+              <li><Link href="/">Home</Link></li>
+              <li><Link href="/about">About</Link></li>
+              <li><Link href="/projects">Projects</Link></li>
+              <li><Link href="/contact">Contact</Link></li>
+            </ul>
+          </nav>
         </header>
+
+        <main className="projects-main">
+          <h2 className="projects-title">My Projects</h2>
+
+          <div className="projects-grid">
+            {/* Project 1 */}
+            <div className="project-card">
+              <h3>1. Basic Static Website</h3><br/>
+              <p>
+                <strong>Tech Used:</strong> HTML, CSS<br />
+                <strong>Features:</strong> Responsive navbar, content sections, basic contact form<br />
+                <strong>Goal:</strong> Build foundational HTML/CSS skills using semantic elements<br />
+                <strong>Note:</strong> First project, not yet pushed to GitHub.
+              </p>
+            </div>
+
+            {/* Project 2 */}
+            <div className="project-card">
+              <h3>2. Rock, Paper, Scissors Game</h3><br/>
+              <p>
+                <strong>Tech:</strong> HTML, CSS, JavaScript<br />
+                <strong>Features:</strong> Game logic, score tracking, interactive UI<br />
+                <strong>Goal:</strong> Practice DOM manipulation and basic JS logic<br />
+                🔗 <a href="https://rock-paper-scissor-rho-lac.vercel.app/" target="_blank" rel="noopener noreferrer">Live Demo</a><br />
+                📁 <a href="https://github.com/Adhiithyann/ROCK-PAPER-SCISSOR" target="_blank" rel="noopener noreferrer">GitHub</a>
+              </p>
+            </div>
+
+            {/* Project 3 */}
+            <div className="project-card">
+              <h3>3. Portfolio Website</h3><br/>
+              <p>
+                <strong>Tech:</strong> Next.js, React, CSS Modules<br />
+                <strong>Features:</strong> Full responsive layout, multiple pages, SEO optimized<br />
+                <strong>Goal:</strong> Build a professional portfolio using React and Next.js<br />
+                🔗 <a href="https://adhi-portfolio-vhhk.vercel.app/" target="_blank" rel="noopener noreferrer">Live Demo</a><br />
+                📁 <a href="https://github.com/Adhiithyann/adhi-portfolio" target="_blank" rel="noopener noreferrer">GitHub</a>
+              </p>
+            </div>
+          </div>
+        </main>
+
+        <footer className="projects-footer">
+          <p>© 2025 Adhithyan T. All rights reserved.</p>
+        </footer>
       </div>
-
-      <div >
-        <h1 id='mypro'><strong>My Projects </strong> </h1>
-        <div className="container">
-
-          <div className='card'>
-            <h2><strong>1.Basic Static Website</strong></h2><br />
-
-
-            <strong>Tech Used</strong>: HTML, CSS, <br />
-
-           <strong>Features:</strong> <br />
-
-            Responsive navbar ,
-
-            Content sections with text & images ,
-
-            Simple contact form
-
-            Basic CSS styling <br />
-
-            <strong>Goal:</strong> <br />
-            Build foundational HTML/CSS skills using semantic elements and common web features. <br />
-
-            <strong>Note:</strong> First project, not yet pushed to GitHub.
-          </div>
-
-          <div className='cardA'>
-            <h2><strong>2. Rock, Paper, Scissors Game</strong></h2><br />
-            <p>
-              <strong>Tech:</strong> HTML, CSS, JavaScript<br />
-              <strong>Features:</strong>
-
-              User selects Rock/Paper/Scissors
-
-              Computer picks randomly
-
-              Shows result + score (win/loss/draw)
-
-              Interactive UI with DOM updates <br/>
-
-              <strong>Goal:</strong>
-              Practice DOM manipulation, event handling, and basic game logic. <br />
-
-              🔗 Live:  <a href='https://rock-paper-scissor-rho-lac.vercel.app/'
-                target="_blank"
-                rel="noopener noreferrer"
-                className='tdec'><strong>rock-paper-scissor</strong> </a><br />
-              📁 Repo:  <a href='https://github.com/Adhiithyann/ROCK-PAPER-SCISSOR'
-                target="_blank"
-                rel="noopener noreferrer"
-                className='tdec'><strong>GitHub Link</strong> </a>
-            </p>
-          </div>
-          <div className='cardB'>
-            <h2><strong>3. Portfolio Website </strong></h2><br />
-            <p>
-
-              <strong>Tech:</strong>  Next.js, React, CSS Modules<br />
-              <strong>Features:</strong>
-
-              Home, About, Projects, Contact pages
-
-              Responsive & SEO-optimized layout
-
-              Project showcase with links
-
-              Contact form with validation<br />
-
-              <strong>Goal:</strong>
-              Build a modern, professional portfolio using React & Next.js<br/> <br/>
-
-              🔗 Live:  <a href='https://adhi-portfolio-vhhk.vercel.app/'
-                target="_blank"
-                rel="noopener noreferrer"
-                className='tdec'><strong>My Portfolio</strong> </a><br />
-              📁 Repo:  <a href='https://github.com/Adhiithyann/adhi-portfolio'
-                target="_blank"
-                rel="noopener noreferrer"
-                className='tdec'><strong>GitHub Link</strong> </a>
-
-            </p>
-          </div>
-        </div>
-      </div>
-      <footer className="last">
-
-        <p>© 2025 Adhithyan T. All rights reserved.</p>
-      </footer>
     </>
   );
 }
